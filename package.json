@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Assignment 3 — Landing Page with Tailwind CSS",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "start": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "latest",
-    "tailwindcss": "latest"
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
   }
 }

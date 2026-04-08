@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Theme langsung di CSS (v4 style) */
+@theme {
+  --color-primary: #421abc;
+  --color-bg: #000;
+  --color-text-main: #fdfdfd;
+  --color-text-secondary: #717680;
+  --color-border-dark: #181d27;
+
+  --font-sans: "Inter", sans-serif;
+}

@@ -4,9 +4,311 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 3 - Landing Page</title>
-    <link href="./output.css" rel="stylesheet" />
+    <link href="css/output.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bg-bg text-text-main font-sans overflow-x-hidden">
+    <!-- <div class="bg-red-900 text-white">TEST</div>
+<h1 class="text-3xl font-bold text-white bg-amber-900">Hello World</h1>    -->
+
+    <!-- HEADER -->
+    <header
+      class="flex justify-between items-center p-4 bg-black text-white md:justify-around md:h-84px"
+    >
+      <!-- LOGO -->
+      <section class="logo">
+        <strong
+          class="teks-logo"
+          ;
+          style="font-size: xx-large; font-weight: bold"
+          >Tech.</strong
+        >
+      </section>
+
+      <!-- NAV LINK -->
+      <nav>
+        <!-- <ul class="nav-link"> -->
+        <ul class="hidden md:flex gap-8 text-sm">
+          <li>
+            <a
+              class="relative hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-2px after:bg-cyan-400 after:transition-all after:-translate-x-1/2"
+              href="#about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="relative hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-2px after:bg-cyan-400 after:transition-all after:-translate-x-1/2"
+              href="#service"
+              >Service</a
+            >
+          </li>
+          <li>
+            <a
+              class="relative hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-2px after:bg-cyan-400 after:transition-all after:-translate-x-1/2"
+              href="#ourwork"
+              >Our Work</a
+            >
+          </li>
+          <li>
+            <a
+              class="relative hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-2px after:bg-cyan-400 after:transition-all after:-translate-x-1/2"
+              href="#team"
+              >Team</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- NAV BUTTON -->
+      <section class="nav-button">
+        <button class="hamburger" , id="hamburger">
+          <img src="asset/Icon.png" alt="hamburger-button" />
+        </button>
+
+        <button class="contact-us">Contact Us</button>
+      </section>
+    </header>
+
+    <!-- MAIN CONTENT-->
+    <main>
+      <!-- 1. HERO  -->
+      <section
+        class="flex flex-col md:flex-row items-center justify-between bg-gradient-to-b from-black to-[#210a5e] p-4"
+      >
+        <!-- 1.1. HERO GRID -->
+        <div class="hero-grid">
+          <div class="text-40px md:text-56px leading-tight">
+            <!-- <div class="hero-text">-->
+            <h1
+              class="text-40px md:text-56px leading-tight"
+              style="font-weight: bold"
+            >
+              <!-- <h1 style="font-weight: bold"> -->
+              Build with the <span style="font-style: italic">Future</span>.
+            </h1>
+            <br />
+            <p class="text-gray-400 mt-2">
+              From building sleek websites and mobile apps to integrating AI
+              solutions, we help brands turn ideas into powerful digital
+              experiences that connect, engage, and scale.
+            </p>
+            <br />
+          </div>
+          <div class="hero-btn">
+            <!-- <div class="hero-btn">-->
+            <button class="mt-4 w-full md:w-300px h-12 rounded-full bg-primary hover:bg-cyan-400 hover:text-gray-500 transition shadow-lg" style="font-size: medium">
+              Let's Talk
+            </button>
+          </div>
+        </div>
+
+        <!-- 1.2. HERO IMAGE -->
+         <!-- div class="hero-img  -->
+        <div class="md:w-55% relative md:right-20">
+          <img src="/assets/images/hand.png" class="w-80% md:w-full"  alt="hand.png"/>
+        </div>
+      </section>
+
+      <!-- 2. WHO WE ARE -->
+       <!-- <section class="who-we-are  -->
+      <section class="text-center p-4 mt-6" id="about">
+        <!-- 2.1. WWA TEXT -->
+        <div class="wwa-text">
+          <h2>Who We Are</h2>
+          <br/>
+          <p>
+            We're a group of tech students trained
+            <span>in building real-world digital products.</span>
+          </p>
+          <p>
+            From coding to design, we
+            <span>craft modern solutions for modern problems.</span>
+          </p>
+          <br />
+        </div>
+      </section>
+
+      <!-- 3. WHAT WE DO -->
+       <!-- <section class="what-we-do -->
+      <section class="text-center p-4 mt-6" id="service">
+        <!--  3.1. WWD - TEXT -->
+          <!-- <div class="wwd-text -->
+        <div class="text-center">
+          <h2>What We Do</h2>
+          <br/>
+          <p>We offer simple tech solutions to help your ideas grow.</p>
+          <br/>
+        </div>
+        <!-- 3.2. WWD - GRID -->
+         <!-- <div class="wwd-grid -->
+        <div class="flex flex-wrap justify-center md:grid md:grid-cols-3 gap-4 max-w-360px md:max-w-1160px mx-auto">
+          <!-- 3.2.1. -->
+           <!-- <div class="wwd-card  -->
+          <div class="flex flex-col items-center justify-center border border-dashed border-border-dark rounded-xl p-3 max-w-160px md:max-w-374px">
+            <img class="p-1" src="/assets/icons/Website.png" alt="website.png" />
+            <h3 class="mt-1">Web Development</h3>
+            <br />
+            <p class="text-sm text-gray-400">Modern websites using HTML, CSS, JavaScript, and frameworks.</p>
+            <br />
+          </div>
+
+          <!-- 3.2.2. -->
+           <!-- <div class="wwd-card  -->
+          <div class="flex flex-col items-center justify-center border border-dashed border-border-dark rounded-xl p-3 max-w-160px md:max-w-374px">
+            <img class="p-1" src="/assets/icons/Mobile.png" alt="mobile.png" />
+            <h3 class="mt-1">App Development</h3>
+            <br />
+            <p class=" text-sm text-gray-400">Mobile and desktop apps tailored for your needs.</p>
+            <br />
+          </div>
+
+          <!-- 3.2.3. -->
+            <!-- <div class="wwd-card -->
+          <div class="flex flex-col items-center justify-center border border-dashed border-border-dark rounded-xl p-3 max-w-160px md:max-w-374px">
+            <img class="p-1" src="/assets/icons/AI.png" alt="AI.png" />
+            <h3 class="mt-1">AI Integration</h3>
+            <br />
+            <p class="text-sm text-gray-400">Smart solutions using AI-powered tools and automation.</p>
+            <br />
+          </div>
+
+          <!-- 3.2.4. -->
+           <!-- <div class="wwd-card -->
+          <div class="flex flex-col items-center justify-center border border-dashed border-border-dark rounded-xl p-3 max-w-160px md:max-w-374px ">
+            <img class="p-1" src="/assets/icons/Vector.png" alt="vector.png" />
+            <h3 class="mt-1">UI/UX Design</h3>
+            <br />
+            <p class="text-sm text-gray-400">Clean and functional designs for better user experience.</p>
+            <br />
+          </div>
+
+          <!-- 3.2.5. -->
+           <!-- <div class="wwd-card -->
+          <div class="flex flex-col items-center justify-center border border-dashed border-border-dark rounded-xl p-3 max-w-160px md:max-w-374px">
+            <img class="p-1" src="/assets/icons/Vector (1).png" alt="ui.png" />
+            <h3 class="mt-1">Landing Page Design</h3>
+            <br />
+            <p class="text-sm text-gray-400">High-converting landing pages for your products or business.</p>
+            <br />
+          </div>
+
+          <!-- 3.2.6. -->
+           <!-- <div class="wwd-card -->
+          <div class="flex flex-col items-center justify-center text-center border border-dashed border-border-dark rounded-xl p-3 max-w-160px md:max-w-374px">
+            <img class="p-1" src="/assets/icons/CMS.png" alt="cms.png" />
+            <h3 class="mt-1">CMS Integration</h3>
+            <br />
+            <p class="text-sm text-gray-400">Easy-to-manage websites with WordPress or Webflow.</p>
+            <br />
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. OUR WORK -->
+        <!-- <section class="our-work -->
+      <section class="text-center p-4 mt-6" id="ourwork">
+        <!-- <div class="ow-text"> -->
+          <div class="border">
+          <h2>Our Work</h2>
+          <br />
+          <p>See what we've built with passion and purpose.</p>
+          <br />
+        </div>
+        <!-- <div class="ow-porto">-->
+        <div class="flex flex-col md:flex-row gap-4 max-w-1159px mx-auton justify-center">
+           <!-- <div class="ow-porto-card -->
+          <div class="p-2 text-left">
+            <img class="rounded-xl w-full" src="/assets/images/image 214 (2).png" alt="porto1" />
+            <p class="font-bold mt-3">Portfolio 1</p>
+            <br />
+          </div>
+           <!-- <div class="ow-porto-card -->
+          <div class="p-2 text-left">
+            <img class="rounded-xl w-full" src="/assets/images/image 214 (1).png" alt="porto2" />
+            <p class="font-bold mt-3">Portfolio 2</p>
+            <br />
+          </div>
+          <!-- <div class="ow-porto-card -->
+          <div class="p-2 text-left">
+            <img class="rounded-xl w-full"  src="/assets/images/image 214.png" alt="porto3" />
+            <p class="font-bold mt-3">Portfolio 3</p>
+            <br />
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. MEET THE TEAM -->
+       <!-- <section class="meet-the-team" -->
+      <section class="text-center p-4 mt-6" id="team">
+        <div class="mt-text">
+          <h2>Meet the Team</h2>
+          <br />
+          <p>A group of future-ready tech makers.</p>
+          <br />
+        </div>
+
+        <!-- <div class="mt-profil  -->
+        <div class="mt-profil flex flex-wrap p-4 md:flex-nowrap justify-center gap-6 max-w-1160px mx-auto">
+          <div class="mt-profil-card">
+            <img src="/assets/images/Ellipse7.png" alt="JasperK.png" />
+            <h3>Jasper Kim</h3>
+            <br />
+            <p>Project Manager</p>
+            <br />
+          </div>
+          <div class="mt-profil-card">
+            <img src="/assets/images/Ellipse7(1).png" alt="AlexJ.png" />
+            <h3>Alex Jonathan</h3>
+            <br />
+            <p>Full-Stack Developer</p>
+            <br />
+          </div>
+          <div class="mt-profil-card">
+            <img src="/assets/images/Ellipse7(2).png" alt="MarioL.png" />
+            <h3>Mario Lopez</h3>
+            <br />
+            <p>UI/UX Designer</p>
+            <br />
+          </div>
+          <div class="mt-profil-card">
+            <img src="/assets/images/Ellipse7(3).png" alt="JasperK.png" />
+            <h3>Jasper Kim</h3>
+            <br />
+            <p>Data Scientist</p>
+            <br />
+          </div>  
+        </div>
+      </section>
+
+      <!-- 6. MESSAGE -->
+      <section class="message flex flex-col items-center justify-center" id="message">
+        <div class="msg-text">
+          <h2>Let's Collaborate</h2>
+          <br />
+          <p>Need a tech team? We're ready to help.</p>
+          <br />
+        </div>
+        <div class="msg-form">
+          <form class="contact-form">
+            <label class="" for="name">Name</label><br />
+            <input class="border border-text-main rounded-sm p-1" type="text" name="Name" placeholder="Enter your Name" />
+            <br />
+            <label for="email">Email</label><br />
+            <input type="email" name="Email" placeholder="Enter your email" />
+            <br />
+            <label for="message">Message</label><br />
+            <textarea name="message" placeholder="Enter your message"></textarea
+            ><br />
+          </form>
+          <button class="send">Send</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer text-center p-4">
+      <p class="copy">&copy;2025. Web Programming Hack. All Rights Reserved.</p>
+    </footer>
     <!-- ========== NAVBAR ========== -->
 
     <!-- ========== HERO SECTION ========== -->
