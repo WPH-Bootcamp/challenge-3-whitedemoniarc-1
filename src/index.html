@@ -16,7 +16,7 @@
    
     
       <!-- LOGO -->
-      <section class="logo">
+      <section >
         <!-- teks-logo -->
         <strong
           class="teks-logo text-2xl font-bold"
@@ -42,7 +42,7 @@
           </li>
           <li>
             <a
-              class="relative hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-2px after:bg-cyan-400 after:transition-all after:-translate-x-1/2"
+              class="relative hover:after:w-full after:content-'' after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-2px after:bg-cyan-400 after:transition-all after:-translate-x-1/2"
               href="#ourwork"
               >Our Work</a
             >
@@ -77,18 +77,18 @@
         class="flex flex-col md:flex-row items-center justify-between bg-[linear-gradient(#000_0%,#000_60%,#210a5e_100%)] p-4"
       >
         <!-- 1.1. HERO GRID -->
-        <div class="relative md:left-5">
+        <div class="relative md:left-25 max-w-171.75">
           <div class="leading-tight">
             <!-- <div class="hero-text">-->
             <h1
-              class="text-xl font-bold leading-tight"
+              class="text-main font-bold leading-tight"
               
             >
               <!-- <h1 style="font-weight: bold"> -->
               Build with the <span class="italic font-bold " >Future</span>.
             </h1>
             <br />
-            <p class="text-gray-400 mt-2"> 
+            <p class="text-text-secondary mt-2 text-[20px] leading-[34px]"> 
               From building sleek websites and mobile apps to integrating AI
               solutions, we help brands turn ideas into powerful digital
               experiences that connect, engage, and scale.
@@ -99,7 +99,7 @@
           <div class="hero-btn">
             <!-- <div class="hero-btn">-->
             <button
-              class="mt-4 w-full font-medium md:w-300px h-12 rounded-full bg-primary hover:bg-cyan-400 hover:text-gray-500 transition shadow-lg"
+              class="mt-4 w-[40%] font-medium md:w-300px h-12 rounded-full bg-primary hover:bg-cyan-400 hover:text-gray-500 transition shadow-lg"
               
             >
               Let's Talk
@@ -110,7 +110,7 @@
         <!-- 1.2. HERO IMAGE -->
         <!-- div class="hero-img  -->
          <!-- catatan -->
-        <div class="top-4 right-5 max-w-270 md:w-55% relative md:right-10 md:top-4 ">
+        <div class="top-4 right-10 max-w-[595.2px] md:w-55% relative md:right-25 md:top-4 ">
           <img
             src="/assets/images/hand.png"
             class="w-80% md:w-full"
@@ -123,16 +123,16 @@
       <!-- <section class="who-we-are  -->
       <section class="text-center p-4 mt-6" id="about">
         <!-- 2.1. WWA TEXT -->
-        <div class="wwa-text">
-          <h2>Who We Are</h2>
+        <div >
+          <h2 class="text-main-2">Who We Are</h2>
           <br />
-          <p>
+          <p class="text-text-secondary text-size-secondary">
             We're a group of tech students trained
-            <span>in building real-world digital products.</span>
+            <span class="text-text-main">in building real-world digital products.</span>
           </p>
-          <p>
+          <p class="text-text-secondary text-size-secondary">
             From coding to design, we
-            <span>craft modern solutions for modern problems.</span>
+            <span class="text-text-main ">craft modern solutions for modern problems.</span>
           </p>
           <br />
         </div>
@@ -144,9 +144,9 @@
         <!--  3.1. WWD - TEXT -->
         <!-- <div class="wwd-text -->
         <div class="text-center">
-          <h2>What We Do</h2>
+          <h2 class="text-main-2">What We Do</h2>
           <br />
-          <p>We offer simple tech solutions to help your ideas grow.</p>
+          <p class="text-size-tertiary text-text-secondary">We offer simple tech solutions to help your ideas grow.</p>
           <br />
         </div>
         <!-- 3.2. WWD - GRID -->
@@ -246,12 +246,12 @@
 
       <!-- 4. OUR WORK -->
       <!-- <section class="our-work -->
-      <section class="text-center p-4 mt-6" id="ourwork">
+      <section class=" text-center p-4 mt-6" id="ourwork">
         <!-- <div class="ow-text"> -->
         <div class="my-4 p-4 text-lg">
-          <h2>Our Work</h2>
+          <h2 class="text-main-2">Our Work</h2>
           <br />
-          <p>See what we've built with passion and purpose.</p>
+          <p class="text-size-tertiary text-text-secondary">See what we've built with passion and purpose.</p>
           <br />
         </div>
         <!-- <div class="ow-porto">-->
@@ -296,9 +296,9 @@
       <section class="text-center p-4 mt-6" id="team">
         <!-- mt-text -->
         <div class="p-4">
-          <h2>Meet the Team</h2>
+          <h2 class="text-main-2">Meet the Team</h2>
           <br />
-          <p>A group of future-ready tech makers.</p>
+          <p class="text-size-tertiary text-text-secondary">A group of future-ready tech makers.</p>
           <br />
         </div>
 
@@ -348,14 +348,14 @@
       >
       <!-- msg-text -->
         <div class="text-center">
-          <h2>Let's Collaborate</h2>
+          <h2 class="text-main-2">Let's Collaborate</h2>
           <br />
-          <p>Need a tech team? We're ready to help.</p>
+          <p class="text-size-tertiary text-text-secondary">Need a tech team? We're ready to help.</p>
           <br />
         </div>
         <!-- msg-form -->
         <div class="p4">
-          <form class="contact-form">
+          <form class="contact-form w-[353px] md:w-[592px]">
             <label class="" for="name">Name</label><br/>
             <input
               class="border border-border-dark rounded-lg p-2 w-full"
@@ -370,7 +370,7 @@
             <br />
             <br>
             <label for="message">Message</label><br />
-            <textarea name="message" placeholder="Enter your message" class="border border-border-dark rounded-lg w-full resize-none outline-non h-32"></textarea
+            <textarea name="message" placeholder="Enter your message" class="border border-border-dark rounded-lg w-full resize-none outline-non h-32 p-2"></textarea
             ><br />
             <br>
           </form>
@@ -381,7 +381,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer text-center my-6 p-4">
+    <footer class="text-text-secondary text-center my-6 p-4">
       <p class="copy">&copy;2025. Web Programming Hack. All Rights Reserved.</p>
     </footer>
     <!-- ========== NAVBAR ========== -->

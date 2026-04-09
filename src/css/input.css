@@ -9,4 +9,9 @@
   --color-border-dark: #181d27;
 
   --font-sans: "Inter", sans-serif;
+
+  --text-main:56px;
+  --text-main-2:40px;
+  --text-size-secondary:32px;
+  --text-size-tertiary:18px;
 }
